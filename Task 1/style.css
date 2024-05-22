@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+
+.home{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.7em 0;
+  gap: 2em;
+  color: #ffff;
+ background-image: url("./asserts/home-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home h1{
+  font-size: 4em;
+  z-index: 100;
+  cursor: pointer;
+}
+
+
+.home p{
+  font-size: 1.3em;
+  width: 60%;
+  text-align: center;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.para-1-home{
+  margin-bottom: 2em;
+}
+
+.section{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:1.5em;
+  gap: 2.5em;
+}
+
+.section-heading{
+  font-size: 2.5em;
+  font-weight: 500;
+  cursor: pointer;
+}
+span{
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #ffff;
+  font-weight: bold;
+  box-shadow: 7px 7px 9px 0px rgba(82, 71, 71, 0.466);
+
+  transition: 0.3s ease-in-out;
+
+}
+span:hover{
+  color: #000000;
+  background-color: #ffff;
+}
+
+
+/* All teams */
+ .all-teams {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  width: 100%;
+ }
+
+
+  .team-members{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3em;
+    width: 80%;
+  }
+ .teams{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* border: 1px solid red; */
+  gap: 3em;
+  padding: 1em 0;
+}
+
+.team-name-heading{
+  /* border: 1px solid red; */
+  padding: 0.5em 1.3em;
+  border-radius: 1.2em;
+  color: #ffff;
+  background-color: #000000;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+ .user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+ cursor: pointer;
+}
+
+  .user-image-part{
+    height: 9em;
+    width:9em;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .user-image-part img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .text-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-part h1{
+    font-weight: 500;
+    font-size: 1.2em;
+  }
